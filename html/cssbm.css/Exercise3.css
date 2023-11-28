@@ -1,0 +1,117 @@
+/* nav{
+    border: 1px solid  black;
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    font-size: 25px;
+    padding:10px 0 0 10px;
+    width: 80%;
+    margin-left:140px;
+
+}
+nav li{
+    list-style-type: none;
+    display:inline;
+    padding: 10px;
+}
+.button{
+    background-color: burlywood;
+    text-align: center;
+    width: 70px;
+}
+
+main{
+    padding: 10px;
+    text-align: justify;
+}
+img{
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+section{
+    padding-top: 50px;
+}
+
+section.ul.li{
+    list-style-type: none;
+    display:inline;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 70px;
+}
+
+hr{
+    width: 500px;
+    margin-left: 0px;
+}
+
+
+#para1{
+    box-sizing: border-box;
+    border: 10px solid red;
+    background-color: cadetblue;
+    width: 500px;
+    padding: 50px;
+
+}
+#para2{
+    border: 10px solid red;
+    background-color: cadetblue;
+    width: 500px;
+    padding: 50px;
+
+}
+
+a:link{
+    color:red;
+}
+a:hover{
+    color:black;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color:brown;
+}
+
+
+input:hover{
+    border-color: coral;
+    padding:5px;
+    outline: none;
+}
+
+p:last-of-type{
+    color:aqua;
+} */
+
+.saima p:first-of-type{
+ color:red;
+}
+
+.saimaa h3:last-of-type{
+color:green;
+}
+
+div.saima :nth-child(3){
+    background-color: brown;
+}
+ul li:nth-child(3) {
+    color: blue;
+    font-weight: bold;
+  }
+  section p:nth-child(3n) {
+    background-color: #6d6d19;
+    padding: 10px;
+  }
+  .container h2:nth-of-type(5) {
+    font-size: 24px;
+    color: green;
+  }

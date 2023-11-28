@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS test file</title>
+<style>
+    p{
+        color: red;
+    }
+    .cl-p{
+        color: gray;
+        text-align: center;
+        font-size: large;
+    }
+    #image{
+        width: 30%;
+        height: 30%;
+    }
+    p{
+    color:aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2,mark{
+    color:brown;
+    font-weight: 100;
+
+}
+
+div.box  p{
+    color:green ;
+}
+div.box > p{
+    color:chartreuse;
+}
+h1 + p {
+    color: darkmagenta;
+}
+h1 ~ p 
+{
+    color:dodgerblue;
+}
+input[type='text']
+{
+  border-color: red;
+}
+section.boxx p:first-child{
+    font-style: italic;
+}
+
+p::first-letter{
+    color: crimson;
+    font-style: italic;
+}
+p::before{   /* adds a defined text before all p tags */
+    content: "this ";
+}
+p::after{
+    content:"";
+}
+p::selection {
+  background-color: yellow;
+  color: black;
+}
+
+</style>
+</head>
+
+<body>
+    <!--div class="login"> 
+        <h2>Login</h2>
+        <label class="innertext"> User Name</label> <br/>
+        <input type="text"  placeholder="Enter your username">
+    </div-->
+    <h1>
+        simple  selector types
+    </h1>
+    <p> Element selector </p>
+    <p class="cl-p">Class selector</p>
+    <p class="cl-p">class2 selector</p>
+
+    <img src="download.jpeg"  id="image"/> id selector 
+    <h2> grouping selector</h2>
+    <mark> grouping selector</mark>
+
+    <div class="box">
+        <h1>
+            combinator selector
+        </h1>
+        <p> descendent selector-space</p>
+        <p> child selector > </p>
+        <div>
+            <p> Adjacent selector - +</p>
+            <p> general sibling selector- ~</p>
+        </div>
+    </div>
+
+
+
+
+    <div>
+        <h3> Attribute selector</h3>
+       <label>User Name </label> <input type ="text"/><br/>
+       <br/>
+       <label>Phone No.</label> <input type = "tel">
+    </div>
+   
+
+    <section class="boxx">
+         <h1> Psuedo-class selector </h1>
+         <p> Paragrapgh 1</p>
+         <p> paragrapgh 2</p>
+         <p> paragrapgh 3</p>
+    </section>
+
+    <div > 
+        pseudo-element selector
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro numquam expedita doloribus incidunt placeat qui, molestias, soluta rerum inventore voluptatum accusamus, at aperiam ut laudantium delectus quod consequuntur hic nesciunt perferendis? Ex harum in aspernatur commodi iste saepe, voluptate placeat animi repudiandae, corporis natus et ducimus officia magni voluptates. Commodi veritatis unde quis non doloribus. Officia nihil obcaecati tempore consequuntur asperiores quis, eligendi sequi consequatur. Libero laboriosam facere quae debitis numquam eligendi iste rem quam at officia. Eaque, dolore debitis facere repellendus, quo fuga voluptatum nam libero voluptates veritatis reiciendis voluptatibus! Molestias doloribus accusamus, alias nostrum nisi sequi tempora?</p>
+    </div>
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tables
+        </title>
+        <style>
+           <!--To avoid having double borders, set the CSS border-collapse property to collapse-->
+            table,th,td{
+                        border-color:white;
+                        border-collapse: collapse;
+                        border-radius:10px;
+                        padding-top: 10px;
+                        padding-bottom: 20px;
+                        padding-left: 30px;
+                        padding-right: 40px;
+                        
+                       
+                    }
+            tr:nth-child(even),th:nth-child(even){
+                background-color:antiquewhite;
+            }
+            td:nth-child(even){
+                background-color: antiquewhite;
+            }
+            tr:hover{
+                background-color: pink;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <caption>Project Members</caption><br><br>
+        <table border="5px solid black" style="width:70%;height:300px;padding:2px;border-spacing:30px;border-bottom: 10px solid blueviolet;" align="center">
+                    <tr style="height: 30px;">
+                        <thead>
+                    <th style="vertical-align:middle">Name</th>
+                    <th>Roll No</th>
+                    <th>Reg. No</th>
+                    <th>Adress</th>
+                    <th>Gender</th>
+                    </tr>
+                    </thead>
+            <tbody>
+            <colgroup style="background-color:aquamarine;" span="5">
+                <tr style="text-align:center;">
+                    <td > Saima </td>
+                    <td >17600016</td>
+                    <td> cus-17-gwc-10077</td>
+                    <td colspan="2">Barzullah , Female</td>
+                </tr>
+                <tr style="text-align:center;">
+                    <td> Ameeza</td>
+                    <td> 17600031</td>
+                    <td> cus-17-gwc-109</td>
+                    <td rowspan="2">Lalbazar</td>
+                    <td>Female</td>
+                </tr>
+                <tr style="text-align:center;"> 
+                    <td>Abiya</td>
+                    <td> 17766767</td>
+                    <td> cus-17-gwc-176272</td>
+                    <td>Female</td>
+                </tr>
+                
+                <!-- <col span="1" style="background-color:red">
+                    <col style="background-color:yellow">-->
+              </colgroup>
+        </table>
+    </body>
+</html>

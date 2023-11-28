@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="outer-div-container">
+       <div class="inner-div-container">
+            <div class="input-container">
+                <input type="text" placeholder="Enter the First no" class="inuptfield" id="fno">    
+                <input type="text" placeholder="Enter the Second  no" class="inuptfield" id="sno"  >   
+                <input type="text" placeholder="Enter the Second  no" class="inuptfield" id="result"  >   
+            </div>
+            <div class="btn-container">
+                <input  class=" buttons" type = "button" value="Add" id="sum" >
+                <input  class="buttons"  type = "button" value="Subtract" id="sub">
+                <input class="buttons"  type = "button" value="Multiply" id="mul" >
+                <input class="buttons"  type = "button" value="Divide" id="div" >
+            </div>
+       </div>
+    </div>
+     <script src="datatypes.js" ></script> 
+    <script src="calc.js" ></script>
+     <div id="output"></div> 
+<button onclick="showOutput()">Show Output</button> 
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    
+</head>
+<body>
+    <div class="outer-div-container">
+        <div class="inner-div-container1">
+            <div class="input-container">
+                <input type="number" id="fno" placeholder="Enter the First Number" class="input">
+                <input type="number" id="sno" placeholder="Enter the Second Number" class="input">
+                <input type="number" id="result" readonly placeholder="Get result" class="input">
+            </div>
+            <div class="btn-container">
+                <input type="button" class="button" value="Addition" id="add" onclick="calculate('add')">
+                <input type="button" class="button" value="Subtraction" id="sub" onclick="calculate('sub')">
+                <input type="button" class="button" value="Multiply" id="mul" onclick="calculate('mul')">
+                <input type="button" class="button" value="Division" id="div" onclick="calculate('div')">
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
